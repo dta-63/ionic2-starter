@@ -6,11 +6,16 @@ $ npm install -g ionic cordova
 $ npm install
 ```
 
-Then, to run it, cd into `mySidemenu` and run:
+Then, to run it on device:
 
 ```bash
 $ ionic platform add android
 $ ionic run android
+```
+
+or on desktop :
+```bash
+$ ionic serve
 ```
 
 Substitute android for ios if not on a Windows.
